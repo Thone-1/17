@@ -151,7 +151,7 @@ backend_docking_set(){
         check_docker
 	xrayr_file
 	rulelist_file
-	docker run --restart=always --name 17xrayr -d -v /usr/local/17xrayr/config.yml:/etc/XrayR/config.yml -v /usr/local/17xrayr/rulelist:/etc/XrayR/rulelist --network=host thone01/17xrayr-reality:v3
+	docker run --restart=always --name 17xrayr -d -v /usr/local/17xrayr/config.yml:/etc/XrayR/config.yml -v /usr/local/17xrayr/rulelist:/etc/XrayR/rulelist --network=host crackair/xrayr:latest
         setenforce 0
         sed -i 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/selinux/config
         greenbg "恭喜您，后端节点已搭建成功"
