@@ -101,7 +101,7 @@ ConnectionConfig:
 Nodes:
   - PanelType: "NewV2board" # Panel type: SSpanel, NewV2board, PMpanel, Proxypanel, V2RaySocks, GoV2Panel
     ApiConfig:
-      ApiHost: "https://www.17cloud.me"
+      ApiHost: "https://kkkkkk1562013.17cloud.me"
       ApiKey: "17cloud17cloud17cloud"
       NodeID: $node_id
       NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan, Shadowsocks-Plugin
