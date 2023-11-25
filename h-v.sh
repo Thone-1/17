@@ -102,7 +102,7 @@ Nodes:
   -
     PanelType: "V2board" # Panel type: SSpanel, V2board, PMpanel, , Proxypanel
     ApiConfig:
-      ApiHost: "https://www.17cloud.me"
+      ApiHost: "https://kkkkkk1562013.17cloud.me"
       ApiKey: "17cloud17cloud17cloud"
       NodeID: $node_id
       NodeType: V2ray # Node type: V2ray, Shadowsocks, Trojan, Shadowsocks-Plugin
